@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Bash(/c/study/projects/Tutor_screener/vevn/Scripts/pip install:*)",
+      "Bash(npm install:*)",
+      "Bash(/c/study/projects/Tutor_screener/vevn/Scripts/python -c ':*)",
+      "Bash(/c/study/projects/Tutor_screener/vevn/Scripts/python:*)"
+    ]
+  }
+}
