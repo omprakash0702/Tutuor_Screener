@@ -1,4 +1,5 @@
-# TutorScreen AI
+# TutorScreen AI 
+## LIVE DEMO - https://tutuor-screener.vercel.app/
 
 An AI-powered tutor candidate screening tool. Conducts a structured voice or text interview, then generates a detailed evaluation report with scores, strengths, red flags, and direct quotes from the interview.
 
@@ -143,3 +144,19 @@ Open `http://localhost:5173` in **Chrome** (required for Web Speech API).
 - Sessions are stored in memory — a server restart clears active interviews
 - Chrome is required for voice input (Web Speech API)
 - Mute button in the interview header silences the AI's TTS
+
+
+## Deployment
+
+The application is deployed using a split architecture, with the frontend hosted on Vercel and the backend on Render. This setup enables fast UI delivery while maintaining a scalable API for interview processing and evaluation.
+
+- Frontend deployed on Vercel (React + Vite)
+- Backend deployed on Render (FastAPI)
+- Backend URL: https://tutuor-screener.onrender.com
+- Frontend uses env variable: VITE_API_URL=https://tutuor-screener.onrender.com
+- Vercel config: Root = frontend, Output = dist
+- Render config: Root = backend, Start = uvicorn main:app --host 0.0.0.0 --port 10000
+- OPENAI_API_KEY configured in Render environment variables
+- CORS enabled in backend (allow_origins=["*"])
+- Render free tier may sleep (initial request delay possible)
+- Fully functional via deployed frontend URL
