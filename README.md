@@ -1,5 +1,5 @@
 # TutorScreen AI 
-## LIVE DEMO - https://tutuor-screener.vercel.app/
+### LIVE DEMO - https://tutuor-screener.vercel.app/
 ### Write up - https://docs.google.com/document/d/1y3-oTwgm16zx8WNsItg-ZWrmoeqQnOn6zo5QlXJwSJ4/edit?tab=t.0
 ### Video demo - https://drive.google.com/file/d/1lsIfGemHyWxJUngjpuHehNDjuk8FaIkw/view
 
