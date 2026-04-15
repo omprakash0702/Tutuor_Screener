@@ -24,6 +24,10 @@ An AI-powered tutor candidate screening tool. Conducts a structured voice or tex
 | AI | OpenAI GPT-4o (streaming + JSON mode) |
 | Speech | Web Speech API (STT) + SpeechSynthesis (TTS) |
 
+## Development
+
+-  Used Claude Code as a development assistant for faster iteration and structuring
+
 ---
 
 ## Project Structure
